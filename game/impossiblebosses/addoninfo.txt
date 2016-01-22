@@ -1,0 +1,18 @@
+"AddonInfo"
+{
+  "TeamCount" "2"
+  "maps"      "impossible_bosses"
+  "IsPlayable"  "1"
+  "impossible_bosses"
+  {
+          "MaxPlayers"                    "8"
+  }
+//  "desert_duo"
+//  {
+//          "MaxPlayers"                    "10"
+//  }
+//  "forest_solo"
+//  {
+//          "MaxPlayers"                    "10"
+//  }
+}

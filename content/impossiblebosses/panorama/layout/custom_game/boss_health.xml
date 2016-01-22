@@ -1,0 +1,23 @@
+<root>
+  <styles>
+    <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+    <include src="file://{resources}/styles/custom_game/boss_health.css" />
+  </styles>
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/boss_health.js" /> 
+  </scripts>
+  <Panel hittest="false" class="BaseHud">
+    <Panel hittest="false" class="Clip">
+      <Panel hittest="false" id="TimerBox" class="TimerBox">
+        <Panel class="health_bar" id="health_bar">   
+              <Panel class="TimerMsg" id="TimerMsg"/>
+              <Panel hittest="false" id="HealthHold" class="HealthHold"/>
+        </Panel> 
+        <Panel class="mana_bar" id="mana_bar">
+               <Panel class="ManaMsg" id="ManaMsg"/>
+               <Panel hittest="false" id="HealthHold" class="HealthHold"/>
+        </Panel> 
+      </Panel> 
+    </Panel>  
+  </Panel>
+</root>

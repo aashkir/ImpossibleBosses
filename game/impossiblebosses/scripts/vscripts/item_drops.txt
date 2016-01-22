@@ -1,0 +1,18 @@
+"Drops" 
+{ 
+    "npc_treasure"
+    { 
+        "1"
+        {
+            "Item"     "item_health_potion"
+            "Chance"   "75"
+            "Multiple" "3"
+        }
+        "2"
+        {
+            "Item"     "item_mana_potion"
+            "Chance"   "33"
+            "Multiple" "2"
+        }
+    }
+}
